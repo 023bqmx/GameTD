@@ -1,10 +1,10 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { appStore, useApp } from '../state/appStore';
-import { TOWERS, TOWER_ORDER } from '../game/data/towers';
-import { ENEMIES, ENEMY_ORDER } from '../game/data/enemies';
-import { SURGE } from '../game/data/waves';
+import { appStore, useApp } from "./appStore";
+import { TOWERS, TOWER_ORDER } from "./towers";
+import { ENEMIES, ENEMY_ORDER } from "./enemies";
+import { SURGE } from "./waves";
 import { enemyImg, IconClose, towerImg } from './icons';
-import { sfx } from '../game/audio/Sfx';
+import { sfx } from "./Sfx";
 
 function Shell({ title, children, wide }: { title: string; children: ReactNode; wide?: boolean }) {
   useEffect(() => {

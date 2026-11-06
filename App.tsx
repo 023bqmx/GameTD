@@ -1,7 +1,7 @@
-import { useApp } from './state/appStore';
-import MainMenu from './ui/MainMenu';
-import GameScreen from './ui/GameScreen';
-import { HowToModal, SettingsModal } from './ui/Modals';
+import { useApp } from "./appStore";
+import MainMenu from "./MainMenu";
+import GameScreen from "./GameScreen";
+import { HowToModal, SettingsModal } from "./Modals";
 
 export default function App() {
   const { screen, modal, runId } = useApp();

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
-import type { EnemyType, TowerType } from '../game/engine/types';
-import { enemyIcon, towerIcon } from '../game/render/art';
+import type { EnemyType, TowerType } from './types';
+import { enemyIcon, towerIcon } from "./art";
 
 // Cached data-URL icons rendered from the same procedural art as the game.
 const towerCache = new Map<string, string>();
